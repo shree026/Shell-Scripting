@@ -1,0 +1,9 @@
+read v
+
+if [[ $v == y ]] || [[ $v == Y ]]
+then
+echo "YES"
+else
+echo "NO"
+fi
+
